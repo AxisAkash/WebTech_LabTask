@@ -1,0 +1,124 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #1a232a;
+    transition: background-color 0.3s ease;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Header */
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+}
+
+/* Table Rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e2f7e1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for Home and Contact Sections */
+section {
+    padding: 20px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+}
+
+#home p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 30px;
+}
