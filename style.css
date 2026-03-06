@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background: linear-gradient(135deg,#6a11cb,#2575fc,#00d2ff);
+background-size:300% 300%;
+
+animation:gradient 10s infinite alternate;
+
+}
+
+@keyframes gradient{
+
+0%{background-position:0% 50%;}
+100%{background-position:100% 50%;}
+
+}
+
+/* Card */
+
+.container{
+
+width:600px;
+
+padding:30px;
+
+border-radius:20px;
+
+background:rgba(255,255,255,0.25);
+
+backdrop-filter:blur(15px);
+
+border:1px solid rgba(255,255,255,0.3);
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+}
+
+h1{
+
+text-align:center;
+margin-bottom:20px;
+color:#2c3e50;
+
+}
+
+/* Inputs */
+
+.inputs{
+
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:15px;
+
+}
+
+input{
+
+padding:10px;
+
+border-radius:8px;
+
+border:none;
+
+background:rgba(255,255,255,0.7);
+
+outline:none;
+
+}
+
+/* Buttons */
+
+.btn{
+
+padding:10px 16px;
+
+border:none;
+
+border-radius:8px;
+
+color:white;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:0.25s;
+
+}
+
+.green{background:linear-gradient(45deg,#2ecc71,#27ae60);}
+.blue{background:linear-gradient(45deg,#3498db,#2980b9);}
+.orange{background:linear-gradient(45deg,#f39c12,#e67e22);}
+
+.btn:hover{
+
+transform:scale(1.07);
+
+box-shadow:0 6px 18px rgba(0,0,0,0.25);
+
+}
+
+/* Search */
+
+#search{
+
+width:100%;
+margin:15px 0;
+
+}
+
+/* Student row */
+
+li{
+
+list-style:none;
+
+display:flex;
+align-items:center;
+gap:10px;
+justify-content:space-between;
+
+background:rgba(255,255,255,0.7);
+
+padding:12px;
+
+border-radius:10px;
+
+margin-bottom:10px;
+
+animation:fadeIn 0.4s ease;
+
+transition:0.2s;
+
+}
+
+li:hover{
+
+transform:scale(1.02);
+background:white;
+
+}
+
+@keyframes fadeIn{
+
+from{opacity:0;transform:translateY(10px);}
+to{opacity:1;transform:translateY(0);}
+
+}
+
+.student-info{
+
+flex:1;
+
+}
+
+/* Present student */
+
+.present{
+
+background:#d4f8d4;
+
+}
+
+/* Highlight */
+
+.highlight{
+
+border:3px solid #ff4757;
+
+}
+
+/* Buttons inside row */
+
+li button{
+
+border:none;
+
+background:#ff4d4d;
+
+color:white;
+
+padding:6px 10px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+/* Stats */
+
+.stats{
+
+margin-top:20px;
+
+font-weight:600;
+
+color:#333;
+
+}
