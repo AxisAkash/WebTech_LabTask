@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab Task 03: Tables and Semantic HTML5 Elements">
+    <title>Lab Task 03 - Semantic HTML and Tables</title>
+</head>
+
+<body>
+
+    <!-- Header section containing the page title -->
+    <header>
+        <h1>Student Information Portal</h1>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <ul>
+            <li><a href="#home" title="Go to home section">Home</a></li>
+            <li><a href="#students" title="View student table">Students</a></li>
+            <li><a href="#contact" title="Go to contact section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main>
+
+        <!-- Home section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>
+                This page demonstrates the use of semantic HTML5 elements
+                and tables to organize structured data in a meaningful way.
+            </p>
+        </section>
+
+        <!-- Students section with table -->
+        <section id="students">
+            <h2>Student Details</h2>
+
+            <table>
+                <caption>Student Information Table</caption>
+
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">CGPA</th>
+                </tr>
+
+                <tr>
+                    <td>23-50363-1</td>
+                    <td>Rakib</td>
+                    <td>CSE</td>
+                    <td>3.85</td>
+                </tr>
+
+                <tr>
+                    <td>23-56987-2</td>
+                    <td>Ayesha</td>
+                    <td>SE</td>
+                    <td>3.92</td>
+                </tr>
+
+                <tr>
+                    <td>23-56987-3</td>
+                    <td>Tanvir</td>
+                    <td>IT</td>
+                    <td>3.78</td>
+                </tr>
+
+                <tr>
+                    <td>23-96874-1</td>
+                    <td>Nusrat</td>
+                    <td>EEE</td>
+                    <td>3.88</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                For more information, please contact the department office.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2026 Student Information Portal</p>
+    </footer>
+
+</body>
+</html>
